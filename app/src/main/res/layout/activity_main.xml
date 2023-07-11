@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/tv_boy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="boyingiz 20 sm da"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/tv_massa"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="vazningiz kg da"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_calculation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="->"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Doctor B"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+</LinearLayout>
